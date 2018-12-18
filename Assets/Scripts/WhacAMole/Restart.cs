@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 
 public class Restart : MonoBehaviour {
 
@@ -18,6 +18,6 @@ public class Restart : MonoBehaviour {
     public void OnMouseDown()
     {
         Debug.Log("restart");
-        EditorSceneManager.LoadScene("WhacAMole");
+        SceneManager.LoadScene("WhacAMole");
     }
 }
